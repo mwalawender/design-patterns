@@ -84,5 +84,4 @@ public class OfferDTO {
             return new OfferDTO(this);
         }
     }
-
 }
