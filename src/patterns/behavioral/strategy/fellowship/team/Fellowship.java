@@ -35,6 +35,10 @@ public class Fellowship {
                 setFellowshipBehaviour(new FellowshipEscape());
                 doAction();
                 break;
+            case FEW_GHOULS:
+                setFellowshipBehaviour(new FellowshipDefense());
+                doAction();
+                break;
         }
     }
 
